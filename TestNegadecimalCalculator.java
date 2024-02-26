@@ -21,7 +21,7 @@ public class TestNegadecimalCalculator {
     public static void main(String[] args){
 
         try{
-            File fIn = new File ("C:\\Users\\georg\\IdeaProjects\\EPL133\\src\\hw1\\input.txt");
+            File fIn = new File ("input.txt path");
             Scanner in = new Scanner (fIn);
             String line;
             while(in.hasNextLine()){
